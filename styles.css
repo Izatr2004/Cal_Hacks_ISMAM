@@ -1,0 +1,38 @@
+* {
+  color: pink;
+  margin: 0;
+  padding: 0;
+  font-size: 150%;
+  font-family: "Brush Script MT";
+  text-align: center;
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;  // Safari
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+    display: block;
+    padding: 1px 1px;
+    color: gray;
+    font-family: tahoma;
+    font-size: 170%;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 120%;
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+} */

@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Is She Mad at Me?",
+    "version": "1.0.0",
+    "author": "Javier, Izat, Terence, Steven",
+    "description": "the emotion of the other texter",
+
+    "action":{
+        "dafault_icon": "",
+        "default_popup": "index.html",
+        "default_title": "Texting Emotion Detector"
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script data-main="scripts/script" src="scripts/require.js"></script>
+        <script data-main="scripts/script" src="script.js"></script>
+        <script>
+            const txt1 = document.getElementById('text1');
+const button1 = document.getElementById('button1');
+const output1 = document.getElementById('output1');
+
+function fun1() {
+  output1.innerHTML = txt1.value;
+}
+
+button1.addEventListener('click',fun1);
+            
+        </script>
+    </head>
+
+    <body>
+        <div style="width:500px">
+            <h1>IS SHE MAD AT ME?</h1>
+            <p>Type your girl's last text.</p>
+
+            <input type="text" id="text1" name="input" placeholder="Enter text here" size="40" style="text-align:center">
+            <button type="button" id="button1" value="Predict">Predict</button>
+
+            <p class="output" id="output1"></p>
+
+        </div>
+    </body>
+</html>
